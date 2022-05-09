@@ -14,11 +14,3 @@ jobs:
         with:
           rasa_version: "2.8.25"
           rasa_train: false
-          rasa_test: false
-
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
